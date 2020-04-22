@@ -1,3 +1,6 @@
+body{
+  height: 2000px;
+}
 .App {
   text-align: center;
 }
@@ -5,6 +8,16 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.btn {
+  font-size: 14px;
+  background-color: #287494;
+  color: #ffffff;
+  padding: 4px 14px;
+  border-radius: 35px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  outline: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
