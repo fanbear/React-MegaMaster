@@ -1,0 +1,32 @@
+.brand {
+    background-color: #f7f7f7;
+}
+.brand--carousel {
+    padding: 0;
+}
+.brand--carousel a {
+   margin: 0 auto;
+   width: 100px;
+   padding: 10px 0;
+   display: block;
+}
+.brand--carousel a img {
+    height: 20px;
+}
+.brand--carousel .owl-next {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    background: transparent;
+}
+.brand--carousel .owl-prev {
+    position: absolute;
+    left: -5px;
+    top: -10px;
+    background: transparent;
+}
+.owl-theme .owl-nav [class*='owl-'] {
+    background: transparent !important;
+    color: black !important;
+    font-size: 25px !important;
+}

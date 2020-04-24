@@ -2,10 +2,12 @@ p {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
 }
+a {
+    font-family: "Roboto", sans-serif;
+}
 .head {
     margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px 0;
+    margin-bottom: 20px;
 }
 .head--logo {
     text-align: left;
@@ -231,7 +233,7 @@ p {
 
 .btn {
     font-size: 14px;
-    background-color: #287494;
+    background: #287494;
     color: #ffffff;
     padding: 4px 14px;
     border-radius: 35px;
@@ -250,11 +252,15 @@ p {
   .btn-callback {
       text-transform: uppercase;
       margin-top: 30px;
+      padding: 9px 14px;
   }
   .btn-popup {
-      background-color: black !important;
+      background: black;
       font-size: 18px;
       text-transform: uppercase;
       margin-top: 20px;
       width: 65%;
+  }
+  .btn-popup:hover {
+      background: transparent;
   }

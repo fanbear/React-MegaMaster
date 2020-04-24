@@ -1,0 +1,38 @@
+.footer-form {
+    background: linear-gradient(rgba(37, 105, 134, 0.9), rgba(37, 105, 134, 0.9));
+    padding: 30px 0;
+}
+.form--title {
+    color: white;
+    font-size: 44px;
+}
+.form--text {
+    color: white;
+    font-size: 18px;
+    padding: 20px 200px;
+}
+.footer-form input {
+    background-color: #7ca5b6;
+    border: 0;
+    color: white;
+    border-radius: 20px;
+    padding: 25px;
+}
+.footer-form input::placeholder {
+    color: white;
+    font-size: 22px;
+}
+.footer-form button {
+    width: 100%;
+    font-size: 18px;;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    text-transform: uppercase;
+    background: black;
+    border: 1px solid black;
+    font-weight: 500;
+}
+.footer-form button:hover {
+    background: transparent;
+}

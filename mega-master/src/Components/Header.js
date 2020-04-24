@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-import {Navbar, Nav, NavDropdown, Container, Row, Col, Image } from 'react-bootstrap';
+import {Navbar, Nav, Container, Row, Col, Image } from 'react-bootstrap';
 import logo from '../Image/logo.jpg';
 import close from '../Image/close.png';
 import phone from '../Image/phone.png';
-import home from '../Image/home.png';
 import {addres_db, phone_db, menu_db} from '../Db/head.js';
 import "../Components/Head.css"
 
@@ -17,20 +16,19 @@ class AddresItem extends React.Component {
         }
     }
     render() {
-        console.log("db", this.state.adr);
-    return (<Row>{
-            this.state.adr.map(function (adr) {
-            return (
-                <Col md="6" xs="12" key={adr.id} className="head--addres">
-                    <div className="text-center">
-                        <img width={16} height={16} className="mr-1" src={adr.img} alt={adr.metro}/>
-                        <p className="m-0 text-left">{adr.metro}</p>
-                        <small className="m-0">{adr.adress}</small>
-                    </div>
-                    
-                </Col>)
-            })
-        }</Row>);
+        return (<Row>{
+                this.state.adr.map(function (adr) {
+                return (
+                    <Col md="6" xs="12" key={adr.id} className="head--addres">
+                        <div className="text-center">
+                            <img width={16} height={16} className="mr-1" src={adr.img} alt={adr.metro}/>
+                            <p className="m-0 text-left">{adr.metro}</p>
+                            <small className="m-0">{adr.adress}</small>
+                        </div>
+                        
+                    </Col>)
+                })
+            }</Row>);
     }
 }
 class PhoneItem extends React.Component {
@@ -55,7 +53,6 @@ class PhoneItem extends React.Component {
         );
     }
 }
-
 class Menu extends React.Component {
     constructor() {
         super();
@@ -80,8 +77,6 @@ class Menu extends React.Component {
         )
     }
 }
-
-
 class Header extends Component {
     constructor() {
         super()
@@ -98,7 +93,7 @@ class Header extends Component {
     callbackClose = () => {this.setState({callback: !this.state.callback})};
     render() {
         return (
-            <div>
+            <div className="header">
                 <Container className="head">
                     {this.state.currer ? 
                     <div className="head-popup-wrapper" md="12">
