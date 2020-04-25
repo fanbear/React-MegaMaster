@@ -40,13 +40,13 @@ class CallbackForm extends React.Component {
                     </Col>
                     <Form onSubmit={this.handleSubmit}>
                         <Row>
-                            <Col md="4">
+                            <Col md="4" xs="12">
                             <Form.Control placeholder="Имя" type="text" name="name" value={this.state.name} onChange={this.handleNameChange}/>
                             </Col>
-                            <Col md="4">
+                            <Col md="4" xs="12">
                             <Form.Control placeholder="Телефон" type="phone" name="phone" value={this.state.phone} onChange={this.handlePhoneChange}/>
                             </Col>
-                            <Col md="4">
+                            <Col md="4" xs="12">
                                 <button>Заказать звонок</button>
                             </Col>
                         </Row>

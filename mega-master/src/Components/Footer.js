@@ -23,7 +23,7 @@ class Footer extends React.Component {
             <footer>
                 <Container>
                     <Row>
-                        <Col md="3">
+                        <Col md="3" className="mb-3">
                             <div className="main-logo"><a href="/">Мега-Мастер</a></div>
                             <div className="main-text"><small>Дадим вторую жизнь вашему Гаджету с Гарантией </small></div>
                             <div className="social">
@@ -32,7 +32,7 @@ class Footer extends React.Component {
                                 <a href="https://www.youtube.com/channel/UCAXCxLnFFQohkr2JalI2_gA?view_as=subscriber"><img src={youtube} alt="youtube"/></a>
                             </div>
                         </Col>
-                        <Col md="3">
+                        <Col md="3" className="mb-3">
                             <div className="footer-menu">
                                 <p className="footer-title">Меню</p>
                                 <ul>
@@ -45,12 +45,12 @@ class Footer extends React.Component {
                                 </ul>
                             </div>
                         </Col>
-                        <Col md="3">
+                        <Col md="3" className="mb-3">
                         <p className="footer-title">Сервисные центры</p>
                             {this.state.adr.map(adr => {
                                 return (
                                 <div key={adr.id} className="footer-addres">
-                                    <div className="text-left">
+                                    <div className="img-adrs">
                                         <img width={25} height={25} className="mr-1" src={adr.img} alt={adr.metro}/>
                                         <p className="m-0 text-left">{adr.metro}</p>
                                         <small className="m-0">{adr.adress}</small>
@@ -59,7 +59,7 @@ class Footer extends React.Component {
                                 )
                             })}
                         </Col>
-                        <Col md="3">
+                        <Col md="3" className="mb-3">
                             <p className="footer-title">КОНТАКТЫ</p>
                             <div className="footer-phone">
                                 {this.state.phn.map(phn => {

@@ -19,7 +19,7 @@ class AddresItem extends React.Component {
         return (<Row>{
                 this.state.adr.map(function (adr) {
                 return (
-                    <Col md="6" xs="12" key={adr.id} className="head--addres">
+                    <Col md="6" xs="6" key={adr.id} className="head--addres">
                         <div className="text-center">
                             <img width={16} height={16} className="mr-1" src={adr.img} alt={adr.metro}/>
                             <p className="m-0 text-left">{adr.metro}</p>
@@ -121,18 +121,18 @@ class Header extends Component {
                         <Col md="2" xs="12" className="head--logo">
                             <Image src={logo} alt="logo"/>
                         </Col>
-                        <Col md="4" xs="12">
+                        <Col md="4" xs="12" className="addres-block">
                             <AddresItem />
                         </Col>
-                        <Col md="2" xs="12" className="head--currer p-0">
+                        <Col md="2" xs="6" className="head--currer p-0">
                             <p>ВЫЗОВ КУРЬЕРА</p>
                             <small>в любую точку Киева</small>
                             <button type="button" onClick={this.currerPopup} className="btn">ВЫЗВАТЬ КУРЬЕРА</button>
                         </Col>
-                        <Col md="2" xs="12" className="p-0">
+                        <Col md="2" xs="6" className="p-0">
                             <PhoneItem />
                         </Col>
-                        <Col md="2" xs="12" className="p-0">
+                        <Col md="2" xs="12" className="p-0 d-none d-sm-block">
                             <button className="btn btn-callback" onClick={this.callbackPopup}>
                                 <img width={20} heigh={20} src={phone} alt=""/>
                                 <span>заказать звонок</span>
@@ -141,9 +141,9 @@ class Header extends Component {
                     </Row>
                 </Container>
                 <Container fluid className="p-0">
-                    <Navbar collapseOnSelect expend="md" className="menu">
+                    <Navbar collapseOnSelect expand="lg" variant="dark" className="menu">
                          <Container>
-                                {/* <Navbar.Brand href="/"><img widht={40} height={40} src={home} alt="домой"/></Navbar.Brand> */}
+                                <Navbar.Brand className="d-block d-sm-none" href="#home">Мега-Мастер</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />  
                                 <Menu />
                          </Container>   

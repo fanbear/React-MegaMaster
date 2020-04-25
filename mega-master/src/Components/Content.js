@@ -26,13 +26,13 @@ class HeadTitle extends React.Component {
     render() {
         return(
             <div className="content--text">
-                <h1>РЕМОНТ МОБИЛЬНЫХ ТЕЛЕФОНОВ</h1>
-                <p>Ремонт телефонов – это основная специализация нашего СЦ. 
+                <h1>ВСЕ МОБИЛЬНЫЕ ТЕЛЕФОНЫ</h1>
+                {/* <p>Ремонт телефонов – это основная специализация нашего СЦ. 
                 Встретить сегодня человека без мобильного телефона просто невозможно. 
                 И даже не особо важно, у вас ультрамодный девайс или обычный сенсорный смартфон, 
                 для большинства, поломка и ремонт мобильного, привычного устройства становится глобальной проблемой, 
                 ведь все мы знаем, как сейчас трудно в Киеве найти качественный ремонт телефонов с подходящей, 
-                не особо «кусачей» ценовой политикой.</p>
+                не особо «кусачей» ценовой политикой.</p> */}
             </div>
         );
     }
@@ -42,7 +42,7 @@ class Banner extends React.Component {
     render() {
         return (
             <div className="banner-wrapper">
-                <div className="banner--item"><img className="img-fluid" src={banner_1} alt="баннер-1"/></div>
+                {/* <div className="banner--item"><img className="img-fluid" src={banner_1} alt="баннер-1"/></div> */}
                 <div className="banner--item"><img className="img-fluid" src={banner_2} alt="баннер-2"/></div>
                 <div className="banner--item"><img className="img-fluid" src={banner_3} alt="баннер-3"/></div>
                 <div className="banner--item"><img className="img-fluid" src={banner_4} alt="баннер-4"/></div>
@@ -69,9 +69,9 @@ class ProductItem extends React.Component {
                             <Col className="product-wrapper" md="4" key={mb_brend.id}>
                                 <Col className="product--item">
                                     <a href={mb_brend.src}>
-                                        <p className="product---title">{mb_brend.title}</p>
+                                        {/* <p className="product---title">{mb_brend.title}</p> */}
                                         <p className="product---name">{mb_brend.name}</p>
-                                        <img src={mb_brend.img} alt={mb_brend.name}/>
+                                        <img className="img-fluid" src={mb_brend.img} alt={mb_brend.name}/>
                                     </a>
                                 </Col>
                             </Col>

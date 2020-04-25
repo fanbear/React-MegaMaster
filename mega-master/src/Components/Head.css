@@ -15,11 +15,6 @@ a {
 .head--addres {
     text-align: left;
     margin-top: 20px;
-}
-.head--addres:nth-child(1) {
-    border-right: 1px solid #8a8686;
-}
-.head--addres:nth-child(2) {
     border-right: 1px solid #8a8686;
 }
 
@@ -263,4 +258,80 @@ a {
   }
   .btn-popup:hover {
       background: transparent;
+  }
+
+  @media (max-width: 476.99px) {
+    .head--logo {
+        text-align: center;
+        display: none;
+    }
+    .addres-block {
+        margin-top: 20px;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+    .head--addres {
+        border-right: 0;
+    }
+    .head--currer button {
+        font-size: 12px;
+    }
+    .menu {
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        width: 100%;
+    }
+    .navbar-dark .navbar-toggler {
+        border: 0;
+    }
+    .navbar-brand {
+        margin: 0 auto;
+        padding-left: 35px;
+    }
+    .navbar-nav img{
+        display: none;
+    }
+    .navbar-nav {
+        padding: 0;
+        border: 0;
+    }
+    .navbar-nav:after {
+        display: none;
+    }
+    .navbar-nav .nav-link p {
+        padding: 0;
+        margin: 0; 
+    }
+    .nav-link {
+        padding: 20px;
+        margin-left: 10px;
+        border-bottom: 1px solid lightgrey;
+    }
+    #responsive-navbar-nav {
+        margin-bottom: 25px;
+    }
+    .head--popup {
+        width: 94%;
+        height: 340px;
+    }
+    .head--popup h4 {
+        font-size: 16px;
+    }
+    .head--popup p {
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .head--popup input {
+        width: 90%;
+        padding: 3px;
+    }
+    .head--popup input::placeholder {
+        font-size: 12px;
+    }
+    .btn-popup {
+        font-size: 14px;
+        width: 90%;;
+    }
   }

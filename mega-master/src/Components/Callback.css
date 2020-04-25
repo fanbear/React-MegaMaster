@@ -36,3 +36,20 @@
 .footer-form button:hover {
     background: transparent;
 }
+
+@media (max-width: 476.99px) {
+    .form--title {
+        font-size: 20px;
+    }
+    .form--text {
+        padding: 10px;
+        font-size: 14px;
+    }
+    .footer-form input {
+        margin-bottom: 10px;
+        padding: 10px;;
+    }
+    .footer-form input::placeholder {
+        font-size: 14px;
+    }
+}

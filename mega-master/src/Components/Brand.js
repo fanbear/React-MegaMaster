@@ -15,7 +15,18 @@ const options = {
     navText : ['<img src="https://img.icons8.com/small/16/000000/double-left.png"/>','<img src="https://img.icons8.com/small/16/000000/double-right.png"/>'],
     dots: false,
     rewind: false,
-    autoplay: true
+    autoplay: true,
+    responsive: {
+        0:{
+            items: 2
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items: 7
+        }
+    }
 };
 
 class BrandCarousel extends React.Component {
