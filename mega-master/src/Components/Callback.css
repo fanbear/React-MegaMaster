@@ -36,6 +36,27 @@
 .footer-form button:hover {
     background: transparent;
 }
+.sucsess-massege {
+    margin: 20px auto;
+    padding: 10px;
+    display: block;
+    color: white;
+    font-size: 14px;
+    width: 600px;
+    border-radius: 10px;;
+    background: black;
+}
+.error-massege {
+    margin: 20px auto;
+    padding: 10px;
+    display: block;
+    color: white;
+    font-size: 14px;
+    width: 600px;
+    border-radius: 10px;;
+    background: #8c2424;
+}
+
 
 @media (max-width: 476.99px) {
     .form--title {
@@ -51,5 +72,9 @@
     }
     .footer-form input::placeholder {
         font-size: 14px;
+    }
+    .sucsess-massege,
+    .error-massege {
+        height: auto;
     }
 }

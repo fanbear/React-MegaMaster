@@ -15,7 +15,7 @@ class Breadcrumbs extends React.Component {
             <Breadcrumb>
                 <Breadcrumb.Item href="/">Главная</Breadcrumb.Item>
                 <Breadcrumb.Item href="http://www.testproject.pro/remont-mobilnyix-telefonov.html">
-                    Ремонт мобильных телефонов
+                   Все мобильные телефоны
                 </Breadcrumb.Item>
             </Breadcrumb>
         );
@@ -42,7 +42,7 @@ class Banner extends React.Component {
     render() {
         return (
             <div className="banner-wrapper">
-                {/* <div className="banner--item"><img className="img-fluid" src={banner_1} alt="баннер-1"/></div> */}
+                <div className="banner--item"><img className="img-fluid" src={banner_1} alt="баннер-1"/></div>
                 <div className="banner--item"><img className="img-fluid" src={banner_2} alt="баннер-2"/></div>
                 <div className="banner--item"><img className="img-fluid" src={banner_3} alt="баннер-3"/></div>
                 <div className="banner--item"><img className="img-fluid" src={banner_4} alt="баннер-4"/></div>
@@ -66,10 +66,10 @@ class ProductItem extends React.Component {
                 {
                     this.state.mb_brend.map( function(mb_brend) {
                         return (
-                            <Col className="product-wrapper" md="4" key={mb_brend.id}>
+                            <Col className="product-wrapper" md="4" xs="6" key={mb_brend.id}>
                                 <Col className="product--item">
                                     <a href={mb_brend.src}>
-                                        {/* <p className="product---title">{mb_brend.title}</p> */}
+                                        <p className="product---title">{mb_brend.title}</p>
                                         <p className="product---name">{mb_brend.name}</p>
                                         <img className="img-fluid" src={mb_brend.img} alt={mb_brend.name}/>
                                     </a>

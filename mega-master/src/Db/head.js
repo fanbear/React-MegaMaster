@@ -37,31 +37,31 @@ export const menu_db = [
     {
         id: 1,
         src: "http://www.testproject.pro/remont-mobilnyix-telefonov.html",
-        text: "ВСЕ МОБИЛЬНЫЕ ТЕЛЕФОНЫ",
+        text: "Ремонт МОБИЛЬНЫХ ТЕЛЕФОНОВ",
         img: require("../Image/iphone.svg")
     },
     {
         id: 2,
         src: "http://www.testproject.pro/planshety.html",
-        text: "ВСЕ ПЛАНШЕТЫ",
+        text: "Ремонт ПЛАНШЕТОВ",
         img: require("../Image/ipad.svg")
     },
     {
         id: 3,
         src: "http://www.testproject.pro/remont-noutbukov.html",
-        text: "ВСЕ НОУТБУКИ",
+        text: "Ремонт НОУТБУКОВ",
         img: require("../Image/macbook.svg")
     },
     {
         id: 4,
         src: "http://www.testproject.pro/pc-service.html",
-        text: "ВСЕ КОМПЬЮТЕРЫ",
+        text: "Ремонт КОМПЬЮТЕРОВ",
         img: require("../Image/imac.svg")
     },
     {
         id: 5,
         src: "http://www.testproject.pro/remont-televizorov.html",
-        text: "ВСЕ ТЕЛЕВИЗОРЫ",
+        text: "Ремонт ТЕЛЕВИЗОРОВ",
         img: require("../Image/tv.svg")
     },
     {

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Navbar, Nav, Container, Row, Col, Image } from 'react-bootstrap';
+import {Navbar, Nav, Container, Row, Col, Image, Form} from 'react-bootstrap';
 import logo from '../Image/logo.jpg';
 import close from '../Image/close.png';
 import phone from '../Image/phone.png';
@@ -84,6 +84,8 @@ class Header extends Component {
         this.state = {
             currer: false,
             callback: false,
+            currerName: "",
+            currerPhone: ""
 
         }
     }
@@ -101,9 +103,11 @@ class Header extends Component {
                             <Col md="12" className="popup-close"><button type="button" className="head-popup-close" onClick={this.currerClose}><img src={close} alt="закрыть"/></button></Col>
                             <Col md="12"><h4>ЗАКАЗАТЬ ВЫЗОВ КУРЬЕРА</h4></Col>
                             <p>Оставьте заявку, и наш специалист свяжется с вами, чтобы ответить наваши вопросы.</p>
-                            <input type="text" name="name" placeholder="Имя"/>
-                            <input type="text" name="phone" placeholder="Телефон"/>
-                            <button type="button" className="btn btn-popup">Заказать звонок</button>
+                            <Form  onSubmit={this.handleSubmit} method="POST">
+                            <Form.Control placeholder="Имя" type="text" name="name" value={this.state.name} onChange={this.handleNameChange}/>
+                            <Form.Control placeholder="Телефон" type="phone" name="phone" value={this.state.phone} onChange={this.handlePhoneChange}/>
+                            <button type="submit" className="btn btn-popup">Заказать звонок</button>
+                            </Form>
                         </div>
                     </div>: null}
                     {this.state.callback ? 
