@@ -82,7 +82,7 @@ const mobile_brand_db = [
       //   title: "ремонт телефонов",
         name: "Asus",
         img: require("../Image/MobileBrand/asus.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-asus.html" 
+        src: "/asus" 
      },
       
      {
