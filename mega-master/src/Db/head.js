@@ -8,7 +8,7 @@ export const addres_db = [
     {
         id: 3,
         metro: "ПОЗНЯКИ",
-        adress: "ул. Ахматовой 9/12",
+        adress: "ул. Ахматовой 9/18",
         img: require("../Image/metro-green.png")
     }
 ]
@@ -37,31 +37,31 @@ export const menu_db = [
     {
         id: 1,
         src: "http://www.testproject.pro/remont-mobilnyix-telefonov.html",
-        text: "Ремонт МОБИЛЬНЫХ ТЕЛЕФОНОВ",
+        text: "ВСЕ МОБИЛЬНЫЕ ТЕЛЕФОНЫ",
         img: require("../Image/iphone.svg")
     },
     {
         id: 2,
         src: "http://www.testproject.pro/planshety.html",
-        text: "Ремонт ПЛАНШЕТОВ",
+        text: "ВСЕ ПЛАНШЕТЫ",
         img: require("../Image/ipad.svg")
     },
     {
         id: 3,
         src: "http://www.testproject.pro/remont-noutbukov.html",
-        text: "Ремонт НОУТБУКОВ",
+        text: "ВСЕ НОУТБУКИ",
         img: require("../Image/macbook.svg")
     },
     {
         id: 4,
         src: "http://www.testproject.pro/pc-service.html",
-        text: "Ремонт КОМПЬЮТЕРОВ",
+        text: "ВСЕ КОМПЬЮТЕРЫ",
         img: require("../Image/imac.svg")
     },
     {
         id: 5,
         src: "http://www.testproject.pro/remont-televizorov.html",
-        text: "Ремонт ТЕЛЕВИЗОРОВ",
+        text: "ВСЕ ТЕЛЕВИЗОРЫ",
         img: require("../Image/tv.svg")
     },
     {

@@ -1,45 +1,45 @@
 const mobile_brand_db = [
     {
         id: 1,
-        title: "ремонт телефонов",
+      //   title: "ремонт телефонов",
         name: "Samsung",
         img: require("../Image/MobileBrand/samsung.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung.html"    
+        src: "/samsung"    
     },
     {
         id: 2,
-        title: "ремонт телефонов",
+      //   title: "ремонт телефонов",
         name: "Nokia",
         img: require("../Image/MobileBrand/nokia.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-nokia.html"    
+        src: "/nokia"    
      },
      {
         id: 3,
-        title: "ремонт телефонов",
+      //   title: "ремонт телефонов",
         name: "HTC",
         img: require("../Image/MobileBrand/Htc.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-htc.html" 
+        src: "/htc" 
      },
       
      {
         id: 4,
-        title: "ремонт телефонов",
+      //   title: "ремонт телефонов",
         name: "LG",
         img: require("../Image/MobileBrand/LG.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lg.html" 
+        src: "/lg" 
      },
       
      {
         id: 5,
-        title: "ремонт телефонов",
-        name: "apple",
+      //   title: "ремонт телефонов",
+        name: "Apple",
         img: require("../Image/MobileBrand/apple.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-apple-iphone.html" 
+        src: "/apple" 
      },
       
      {
         id: 6,
-        title: "ремонт телефонов",
+      //   title: "ремонт телефонов",
         name: "FLY",
         img: require("../Image/MobileBrand/fly.png"),
         src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-fly.html" 
@@ -47,7 +47,7 @@ const mobile_brand_db = [
       
      {
         id: 7,
-        title: "ремонт телефонов",
+      //   title: "ремонт телефонов",
         name: "Lenovo",
         img: require("../Image/MobileBrand/lenovo.png"),
         src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lenovo.html" 
@@ -55,89 +55,89 @@ const mobile_brand_db = [
       
      {
         id: 8,
-        title: "ремонт телефонов",
+      //   title: "ремонт телефонов",
         name: "Sony",
         img: require("../Image/MobileBrand/sony.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-sony.html" 
+        src: "/sony" 
      },
       
      {
         id: 9,
-        title: "ремонт телефонов",
-        name: "xiaomi",
+      //   title: "ремонт телефонов",
+        name: "Xiaomi",
         img: require("../Image/MobileBrand/xiaomi.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi.html" 
+        src: "/xiaomi" 
      },
       
      {
         id: 10,
-        title: "ремонт телефонов",
-        name: "meizu",
+      //   title: "ремонт телефонов",
+        name: "Meizu",
         img: require("../Image/MobileBrand/meizu.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-meizu.html" 
+        src: "/meizu" 
      },
       
      {
         id: 11,
-        title: "ремонт телефонов",
-        name: "asus",
+      //   title: "ремонт телефонов",
+        name: "Asus",
         img: require("../Image/MobileBrand/asus.png"),
         src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-asus.html" 
      },
       
      {
         id: 12,
-        title: "ремонт телефонов",
-        name: "huawei",
+      //   title: "ремонт телефонов",
+        name: "Huawei",
         img: require("../Image/MobileBrand/huawei.png"),
         src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei.html" 
      },
       
      {
         id: 13,
-        title: "ремонт телефонов",
-        name: "philips",
+      //   title: "ремонт телефонов",
+        name: "Philips",
         img: require("../Image/MobileBrand/philips.png"),
         src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-philips.html" 
      },
       
      {
         id: 14,
-        title: "ремонт телефонов",
-        name: "jiayu",
+      //   title: "ремонт телефонов",
+        name: "Jiayu",
         img: require("../Image/MobileBrand/jiayu.png"),
         src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-mobilnyix-telefonov-remont-telefonov-jiayu.html" 
      },
       
      {
         id: 15,
-        title: "ремонт телефонов",
-        name: "motorola",
+      //   title: "ремонт телефонов",
+        name: "Motorola",
         img: require("../Image/MobileBrand/motorola.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-motorola.html" 
+        src: "/motorola" 
      },
       
      {
         id: 16,
-        title: "ремонт телефонов",
-        name: "google pixel",
+      //   title: "ремонт телефонов",
+        name: "Google Pixel",
         img: require("../Image/MobileBrand/google pixel.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-google-pixel.html" 
+        src: "/google-pixel" 
      },
       
      {
         id: 17,
-        title: "ремонт телефонов",
-        name: "honor",
+      //   title: "ремонт телефонов",
+        name: "Honor",
         img: require("../Image/MobileBrand/honor.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-honor.html" 
+        src: "/honor" 
      },
      {
         id: 18,
-        title: "ремонт телефонов",
-        name: "oneplus",
+      //   title: "ремонт телефонов",
+        name: "OnePlus",
         img: require("../Image/MobileBrand/oneplus.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-oneplus.html"
+        src: "/one-plus"
      }
 ]
 

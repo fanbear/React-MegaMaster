@@ -1,10 +1,22 @@
 import React, { Component } from 'react';
-import {Navbar, Nav, Container, Row, Col, Image, Form} from 'react-bootstrap';
+
+//BOOTSTRAPP
+import {Navbar, Nav, Container, Row, Col, Image} from 'react-bootstrap';
+
+//IMAGE
 import logo from '../Image/logo.jpg';
 import close from '../Image/close.png';
 import phone from '../Image/phone.png';
+
+
+//DATABASE
 import {addres_db, phone_db, menu_db} from '../Db/head.js';
-import "../Components/Head.css"
+
+//STYLE
+import "../Components/Head.css";
+
+//COMPONENTS
+import {CallCourier} from "../Components/Callback";
 
 
 class AddresItem extends React.Component {
@@ -82,34 +94,20 @@ class Header extends Component {
         super()
 
         this.state = {
-            currer: false,
             callback: false,
             currerName: "",
             currerPhone: ""
 
         }
     }
-    currerPopup = () => {this.setState({currer: !this.state.currer})};
-    currerClose = () => {this.setState({currer: !this.state.currer})};
+
     callbackPopup = () => {this.setState({callback: !this.state.callback})};
     callbackClose = () => {this.setState({callback: !this.state.callback})};
     render() {
         return (
             <div className="header">
                 <Container className="head">
-                    {this.state.currer ? 
-                    <div className="head-popup-wrapper" md="12">
-                        <div className="head--popup">
-                            <Col md="12" className="popup-close"><button type="button" className="head-popup-close" onClick={this.currerClose}><img src={close} alt="закрыть"/></button></Col>
-                            <Col md="12"><h4>ЗАКАЗАТЬ ВЫЗОВ КУРЬЕРА</h4></Col>
-                            <p>Оставьте заявку, и наш специалист свяжется с вами, чтобы ответить наваши вопросы.</p>
-                            <Form  onSubmit={this.handleSubmit} method="POST">
-                            <Form.Control placeholder="Имя" type="text" name="name" value={this.state.name} onChange={this.handleNameChange}/>
-                            <Form.Control placeholder="Телефон" type="phone" name="phone" value={this.state.phone} onChange={this.handlePhoneChange}/>
-                            <button type="submit" className="btn btn-popup">Заказать звонок</button>
-                            </Form>
-                        </div>
-                    </div>: null}
+
                     {this.state.callback ? 
                     <div className="head-popup-wrapper" md="12">
                         <div className="head--popup">
@@ -123,15 +121,13 @@ class Header extends Component {
                     </div>: null}
                     <Row>
                         <Col md="2" xs="12" className="head--logo">
-                            <Image src={logo} alt="logo"/>
+                            <a href="/"> <Image src={logo} alt="logo"/></a> 
                         </Col>
                         <Col md="4" xs="12" className="addres-block">
                             <AddresItem />
                         </Col>
                         <Col md="2" xs="6" className="head--currer p-0">
-                            <p>ВЫЗОВ КУРЬЕРА</p>
-                            <small>в любую точку Киева</small>
-                            <button type="button" onClick={this.currerPopup} className="btn">ВЫЗВАТЬ КУРЬЕРА</button>
+                            <CallCourier />
                         </Col>
                         <Col md="2" xs="6" className="p-0">
                             <PhoneItem />

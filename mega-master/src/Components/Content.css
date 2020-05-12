@@ -74,7 +74,7 @@ a:hover {
     padding: 0;
     margin: 0;
     color: #287494;
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 10px;
 }
 /* -------------------- */
@@ -107,6 +107,25 @@ a:hover {
         right: 6px;
     }
     .reviews-item {
+        display: none;
+    }
+    .product-wrapper {
+        padding: 0 10px;
+    }
+    .product--item  {
+        height: auto;
+        padding: 10px 0;
+    }
+    .product--item img {
+        height: 100px;
+    }
+    .product---title {
+        font-size: 14px;
+    }
+    .product---name {
+        font-size: 14px;
+    }
+    .banner-wrapper {
         display: none;
     }
 }

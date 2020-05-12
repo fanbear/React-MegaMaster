@@ -36,11 +36,11 @@ class Footer extends React.Component {
                             <div className="footer-menu">
                                 <p className="footer-title">Меню</p>
                                 <ul>
-                                    <li><a href="http://www.testproject.pro/remont-mobilnyix-telefonov.html">Ремонт мобильных телефонов</a></li>
-                                    <li><a href="http://www.testproject.pro/remont-noutbukov.html">Ремонт ноутбуков</a></li>
-                                    <li><a href="http://www.testproject.pro/planshety.html">Ремонт планшетов</a></li>
-                                    <li><a href="http://www.testproject.pro/pc-service.html">Ремонт компьютеров</a></li>
-                                    <li><a href="http://www.testproject.pro/brands/apple.html">Ремонт Apple</a></li>
+                                    <li><a href="http://www.testproject.pro/remont-mobilnyix-telefonov.html">Все мобильные телефоны</a></li>
+                                    <li><a href="http://www.testproject.pro/remont-noutbukov.html">Все ноутбуки</a></li>
+                                    <li><a href="http://www.testproject.pro/planshety.html">Все планшеты</a></li>
+                                    <li><a href="http://www.testproject.pro/pc-service.html">Все компьютеры</a></li>
+                                    <li><a href="http://www.testproject.pro/brands/apple.html">Все Apple</a></li>
                                     <li><a href="http://www.testproject.pro/articles.html">Блог</a></li>
                                 </ul>
                             </div>
