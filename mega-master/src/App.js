@@ -29,6 +29,8 @@ import Apple from './Pages/Apple';
 import Xiaomi from './Pages/Xiaomi';
 import Meizu from './Pages/Meizu';
 import Asus from './Pages/Asus';
+import Huawei from './Pages/Huawei';
+import Lenovo from './Pages/Lenovo';
 
 function App() {
   return (
@@ -50,6 +52,8 @@ function App() {
         <Route path="/xiaomi" component={Xiaomi} />
         <Route path="/meizu" component={Meizu} />
         <Route path="/asus" component={Asus} />
+        <Route path="/huawei" component={Huawei} />
+        <Route path="/lenovo" component={Lenovo} />
       </Router>
       <CallbackForm />
       <Footer />

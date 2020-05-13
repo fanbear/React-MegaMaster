@@ -37,20 +37,20 @@ const mobile_brand_db = [
         src: "/apple" 
      },
       
-     {
-        id: 6,
-      //   title: "ремонт телефонов",
-        name: "FLY",
-        img: require("../Image/MobileBrand/fly.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-fly.html" 
-     },
+    //  {
+    //     id: 6,
+    //   //   title: "ремонт телефонов",
+    //     name: "FLY",
+    //     img: require("../Image/MobileBrand/fly.png"),
+    //     src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-fly.html" 
+    //  },
       
      {
         id: 7,
       //   title: "ремонт телефонов",
         name: "Lenovo",
         img: require("../Image/MobileBrand/lenovo.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lenovo.html" 
+        src: "/lenovo" 
      },
       
      {
@@ -90,24 +90,24 @@ const mobile_brand_db = [
       //   title: "ремонт телефонов",
         name: "Huawei",
         img: require("../Image/MobileBrand/huawei.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei.html" 
+        src: "/huawei" 
      },
       
-     {
-        id: 13,
-      //   title: "ремонт телефонов",
-        name: "Philips",
-        img: require("../Image/MobileBrand/philips.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-philips.html" 
-     },
+    //  {
+    //     id: 13,
+    //   //   title: "ремонт телефонов",
+    //     name: "Philips",
+    //     img: require("../Image/MobileBrand/philips.png"),
+    //     src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-philips.html" 
+    //  },
       
-     {
-        id: 14,
-      //   title: "ремонт телефонов",
-        name: "Jiayu",
-        img: require("../Image/MobileBrand/jiayu.png"),
-        src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-mobilnyix-telefonov-remont-telefonov-jiayu.html" 
-     },
+    //  {
+    //     id: 14,
+    //   //   title: "ремонт телефонов",
+    //     name: "Jiayu",
+    //     img: require("../Image/MobileBrand/jiayu.png"),
+    //     src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-mobilnyix-telefonov-remont-telefonov-jiayu.html" 
+    //  },
       
      {
         id: 15,

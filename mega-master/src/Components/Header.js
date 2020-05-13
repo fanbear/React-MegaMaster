@@ -5,8 +5,6 @@ import {Navbar, Nav, Container, Row, Col, Image} from 'react-bootstrap';
 
 //IMAGE
 import logo from '../Image/logo.jpg';
-import close from '../Image/close.png';
-import phone from '../Image/phone.png';
 
 
 //DATABASE
@@ -16,7 +14,7 @@ import {addres_db, phone_db, menu_db} from '../Db/head.js';
 import "../Components/Head.css";
 
 //COMPONENTS
-import {CallCourier} from "../Components/Callback";
+import {CallCourier, Callback} from "../Components/Callback";
 
 
 class AddresItem extends React.Component {
@@ -107,18 +105,6 @@ class Header extends Component {
         return (
             <div className="header">
                 <Container className="head">
-
-                    {this.state.callback ? 
-                    <div className="head-popup-wrapper" md="12">
-                        <div className="head--popup">
-                            <Col md="12" className="popup-close"><button type="button" className="head-popup-close" onClick={this.callbackClose}><img src={close} alt="закрыть"/></button></Col>
-                            <Col md="12" className="p-0"><h4>ЗАКАЗАТЬ ОБРАТНЫЙ ЗВОНОК</h4></Col>
-                            <p>Оставьте заявку, и наш специалист свяжется с вами, чтобы ответить наваши вопросы.</p>
-                            <input type="text"/>
-                            <input type="text"/>
-                            <button type="button" className="btn btn-popup">Заказать звонок</button>
-                        </div>
-                    </div>: null}
                     <Row>
                         <Col md="2" xs="12" className="head--logo">
                             <a href="/"> <Image src={logo} alt="logo"/></a> 
@@ -132,11 +118,8 @@ class Header extends Component {
                         <Col md="2" xs="6" className="p-0">
                             <PhoneItem />
                         </Col>
-                        <Col md="2" xs="12" className="p-0 d-none d-sm-block">
-                            <button className="btn btn-callback" onClick={this.callbackPopup}>
-                                <img width={20} heigh={20} src={phone} alt=""/>
-                                <span>заказать звонок</span>
-                            </button>
+                        <Col md="2" xs="12" className="head--currer p-0 d-none d-sm-block">
+                            <Callback />
                         </Col>
                     </Row>
                 </Container>
