@@ -7,6 +7,7 @@ import banner_3 from "../Image/Banner/banner-3.jpg";
 import banner_4 from "../Image/Banner/banner-4.jpg";
 import xiaomi from "../Db/xiaomi"
 import reviews_db from "../Db/reviews.js";
+import LiveSearch from "../Components/LiveSearch";
 
 
 class Breadcrumbs extends React.Component {
@@ -124,6 +125,7 @@ class Xiaomi extends React.Component {
             <Container>
                 <Row>
                     <Col md="12" className="p-0"><Breadcrumbs /></Col>
+                    <Col md="12" className="p-0"><LiveSearch /></Col>
                     <Col md="12"><HeadTitle /></Col>
                     <Col md="3" className="p-0"><Banner /><Reviews /></Col>
                     <Col md="9"><ProductItem /></Col>

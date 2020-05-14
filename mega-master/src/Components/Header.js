@@ -126,7 +126,7 @@ class Header extends Component {
                 <Container fluid className="p-0">
                     <Navbar collapseOnSelect expand="lg" variant="dark" className="menu">
                          <Container>
-                                <Navbar.Brand className="d-block d-sm-none" href="#home">Мега-Мастер</Navbar.Brand>
+                                <Navbar.Brand className="d-block d-sm-none" href="/">Мега-Мастер</Navbar.Brand>
                                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />  
                                 <Menu />
                          </Container>   

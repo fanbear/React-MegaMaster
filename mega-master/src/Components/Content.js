@@ -1,23 +1,32 @@
 import React from 'react';
 import {Breadcrumb, Container, Col, Row} from 'react-bootstrap';
+
+//Style
 import "../Components/Content.css";
+
+//Image
 import banner_1 from "../Image/Banner/banner-1.jpg";
 import banner_2 from "../Image/Banner/banner-2.jpg";
 import banner_3 from "../Image/Banner/banner-3.jpg";
 import banner_4 from "../Image/Banner/banner-4.jpg";
+
+//dataBase
 import mobile_brand_db from "../Db/mobile_brand.js"
 import reviews_db from "../Db/reviews.js";
 
+import LiveSearch from "../Components/LiveSearch";
 
 class Breadcrumbs extends React.Component {
     render() {
         return (
+            <Col md="12">
             <Breadcrumb>
                 <Breadcrumb.Item href="/">Главная</Breadcrumb.Item>
                 <Breadcrumb.Item href="http://www.testproject.pro/remont-mobilnyix-telefonov.html">
                    Все мобильные телефоны
                 </Breadcrumb.Item>
             </Breadcrumb>
+            </Col>
         );
     }
 }
@@ -123,7 +132,9 @@ class Content extends React.Component {
         return (
             <Container>
                 <Row>
+                    
                     <Col md="12" className="p-0"><Breadcrumbs /></Col>
+                    <Col md="12" className="p-0"><LiveSearch /></Col>
                     <Col md="12"><HeadTitle /></Col>
                     <Col md="3" className="p-0"><Banner /><Reviews /></Col>
                     <Col md="9"><ProductItem /></Col>

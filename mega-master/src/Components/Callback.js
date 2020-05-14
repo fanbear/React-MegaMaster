@@ -260,7 +260,7 @@ export class Callback extends React.Component{
             if (response.status === 'success'){
                 this.setState ({
                     isLoaded: true,
-                     messageSucsess: response.message
+                    messageSucsess: response.message
                 });
             }
             else if(response.status === 'fail'){
@@ -273,7 +273,7 @@ export class Callback extends React.Component{
                 this.setState({
                     isLoaded: false,
                     eroor: false,
-                    currerCall: false
+                    Callback: false
                 })
             }, 6000);
             return () => clearTimeout(timer);

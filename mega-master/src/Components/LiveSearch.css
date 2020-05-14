@@ -1,0 +1,31 @@
+.search-container {
+    position: relative;
+    background: #f7f7f7;
+    padding: 25px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.search--response {
+    width: 100%;
+    top: 110px;
+    left: 0;
+    position: absolute;
+    background: #f7f7f7;
+    max-height: 460px;
+    height: auto;
+    padding-bottom: 20px;
+    z-index: 2;
+    overflow-y: scroll;
+    padding-left: 40px;
+}
+.response--item {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid lightgray;
+}
+.search--input-form:focus {
+    border: 0;
+    box-shadow: 0 0 12px 3px #00000026;
+    outline: none;
+}

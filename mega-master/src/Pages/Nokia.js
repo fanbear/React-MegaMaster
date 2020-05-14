@@ -5,8 +5,9 @@ import banner_1 from "../Image/Banner/banner-1.jpg";
 import banner_2 from "../Image/Banner/banner-2.jpg";
 import banner_3 from "../Image/Banner/banner-3.jpg";
 import banner_4 from "../Image/Banner/banner-4.jpg";
-import nokia from "../Db/nokia.js"
+import nokia from "../Db/nokia.js";
 import reviews_db from "../Db/reviews.js";
+import LiveSearch from "../Components/LiveSearch";
 
 
 class Breadcrumbs extends React.Component {
@@ -124,6 +125,7 @@ class Nokia extends React.Component {
             <Container>
                 <Row>
                     <Col md="12" className="p-0"><Breadcrumbs /></Col>
+                    <Col md="12" className="p-0"><LiveSearch /></Col>
                     <Col md="12"><HeadTitle /></Col>
                     <Col md="3" className="p-0"><Banner /><Reviews /></Col>
                     <Col md="9"><ProductItem /></Col>
