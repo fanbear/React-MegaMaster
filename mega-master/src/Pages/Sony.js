@@ -5,7 +5,7 @@ import banner_1 from "../Image/Banner/banner-1.jpg";
 import banner_2 from "../Image/Banner/banner-2.jpg";
 import banner_3 from "../Image/Banner/banner-3.jpg";
 import banner_4 from "../Image/Banner/banner-4.jpg";
-import mobile_brand_db from "../Db/mobile_brand.js"
+import sony from "../Db/sony.js"
 import reviews_db from "../Db/reviews.js";
 import LiveSearch from "../Components/LiveSearch";
 
@@ -27,7 +27,7 @@ class HeadTitle extends React.Component {
     render() {
         return(
             <div className="content--text">
-                <h1>ВСЕ ТЕЛЕФОНЫ SONY</h1>
+                <h1>Выберите свою модель Sony</h1>
                 {/* <p>Ремонт телефонов – это основная специализация нашего СЦ. 
                 Встретить сегодня человека без мобильного телефона просто невозможно. 
                 И даже не особо важно, у вас ультрамодный девайс или обычный сенсорный смартфон, 
@@ -57,7 +57,7 @@ class ProductItem extends React.Component {
         super();
 
         this.state = {
-            mb_brend: mobile_brand_db
+            mb_brend: sony
         }
     }
     render() 

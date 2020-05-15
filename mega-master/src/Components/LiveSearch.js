@@ -19,21 +19,18 @@ class SearchInput extends React.Component {
         e.preventDefault();
     }
     searchChange(event) {
-        const query = event.target.value
-        if (this.state.value.length < 1) {
+        const query = event.target.value;
+        this.setState({
+            value: query,
+            response: db_liveSearch.filter(it => it.title.toLowerCase().trim().includes(query.toLowerCase().trim())),
+        });
+        if (this.state.value.length == 1) {
             this.setState({
                 response: null
             })
         }
-        this.setState({
-            value: query,
-            response: db_liveSearch.filter(it => it.title.toLowerCase().includes(this.state.value.toLowerCase())),
-        });
-
     }
     render() {
-        const {value, response} = this.state
-        const filterValue = value.toLowerCase();
         return(
             <div>
             <Form onSubmit={this.handleSubmit} className="search-container-form">

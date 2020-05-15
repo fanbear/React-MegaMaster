@@ -23,7 +23,7 @@ class Breadcrumbs extends React.Component {
             <Breadcrumb>
                 <Breadcrumb.Item href="/">Главная</Breadcrumb.Item>
                 <Breadcrumb.Item href="http://www.testproject.pro/remont-mobilnyix-telefonov.html">
-                   Все мобильные телефоны
+                    Выберите модель телефона
                 </Breadcrumb.Item>
             </Breadcrumb>
             </Col>
@@ -35,7 +35,7 @@ class HeadTitle extends React.Component {
     render() {
         return(
             <div className="content--text">
-                <h1>ВСЕ МОБИЛЬНЫЕ ТЕЛЕФОНЫ</h1>
+                <h1>Выберите модель телефона</h1>
                 {/* <p>Ремонт телефонов – это основная специализация нашего СЦ. 
                 Встретить сегодня человека без мобильного телефона просто невозможно. 
                 И даже не особо важно, у вас ультрамодный девайс или обычный сенсорный смартфон, 
@@ -54,7 +54,7 @@ class Banner extends React.Component {
                 <div className="banner--item"><img className="img-fluid" src={banner_1} alt="баннер-1"/></div>
                 <div className="banner--item"><img className="img-fluid" src={banner_2} alt="баннер-2"/></div>
                 <div className="banner--item"><img className="img-fluid" src={banner_3} alt="баннер-3"/></div>
-                <div className="banner--item"><img className="img-fluid" src={banner_4} alt="баннер-4"/></div>
+                {/* <div className="banner--item"><img className="img-fluid" src={banner_4} alt="баннер-4"/></div> */}
             </div>
         )
     }

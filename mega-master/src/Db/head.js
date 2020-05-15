@@ -8,7 +8,7 @@ export const addres_db = [
     {
         id: 3,
         metro: "ПОЗНЯКИ",
-        adress: "ул. Ахматовой 9/18",
+        adress: "Ревуцкого 12А",
         img: require("../Image/metro-green.png")
     }
 ]

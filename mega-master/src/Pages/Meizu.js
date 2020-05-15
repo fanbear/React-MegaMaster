@@ -16,7 +16,7 @@ class Breadcrumbs extends React.Component {
             <Breadcrumb>
                 <Breadcrumb.Item href="/">Главная</Breadcrumb.Item>
                 <Breadcrumb.Item href="http://www.testproject.pro/remont-mobilnyix-telefonov.html">
-                    Все мобильные телефоны / Все телефоны LG
+                    Все мобильные телефоны / Все телефоны Meizu
                 </Breadcrumb.Item>
             </Breadcrumb>
         );
@@ -27,7 +27,7 @@ class HeadTitle extends React.Component {
     render() {
         return(
             <div className="content--text">
-                <h1>ВСЕ ТЕЛЕФОНЫ LG</h1>
+                <h1>Выберите свою модель Meizu</h1>
                 {/* <p>Ремонт телефонов – это основная специализация нашего СЦ. 
                 Встретить сегодня человека без мобильного телефона просто невозможно. 
                 И даже не особо важно, у вас ультрамодный девайс или обычный сенсорный смартфон, 

@@ -16,6 +16,7 @@ const options = {
     dots: false,
     rewind: false,
     autoplay: true,
+    loop: true,
     responsive: {
         0:{
             items: 2
