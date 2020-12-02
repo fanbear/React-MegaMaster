@@ -1,14 +1,14 @@
 export const addres_db = [
     {
         id: 1,
-        metro: "ЛУКЬЯНОВКА",
-        adress: "ул. Герцена 6",
+        metro: "ХАРЬКОВСКИЙ",
+        adress: "ул. Анны Ахматовой 7/15",
         img: require("../Image/metro-blue.png")
     },
     {
         id: 3,
         metro: "ПОЗНЯКИ",
-        adress: "Ревуцкого 12А",
+        adress: "ул. Анны Ахматовой 7/15",
         img: require("../Image/metro-green.png")
     }
 ]

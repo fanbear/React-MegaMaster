@@ -32,7 +32,7 @@ $headers = 	'From: ~Mega-Master <info@megamaster.space>' . "\r\n" .
 "MIME-Version: 1.0\r\n" . 
 "Content-Type: text/html; charset=utf-8\r\n";
 
-$to = 'info@megamaster.space';
+$to = 'info@megamaster.website';
 $subject = 'Заявка с Мега-Мастера';
     
 if (mail($to, $subject, $emailBody, $headers)) {

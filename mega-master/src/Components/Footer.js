@@ -77,7 +77,8 @@ class Footer extends React.Component {
                                 <div className="work-time">
                                     <img src={clock} alt="" width={24} height={24}/>
                                     <span>Время работы</span>
-                                    <span>С 10:00 до 19:00</span>
+                                    <span>Пн-Пт 10:00 - 20:00</span>
+                                    <span>Сб-Вс 11:00 - 18:00</span>
                                 </div>
                             </div>
                         </Col>
