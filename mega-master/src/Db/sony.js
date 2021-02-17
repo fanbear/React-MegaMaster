@@ -1,5 +1,26 @@
 const sony = [
     {
+        id: "56",
+        title: "SONY",
+        name: "Experia 20",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-sony/remont-sony-xperia-20",
+        img: require("../Image/Sony/SONY_XPERIA 20_000.jpg")
+    },
+{
+        id: "57",
+        title: "SONY",
+        name: "Experia 10",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-sony/remont-sony-xperia-10-i4113",
+        img: require("../Image/Sony/SONY_XPERIA 10_000.jpg")
+    },
+{
+        id: "58",
+        title: "SONY",
+        name: "Experia 1",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-sony/remont-sony-xperia-1-j9110",
+        img: require("../Image/Sony/SONY_XPERIA 1_000.png")
+    },
+    {
         id: "1",
         title: "SONY",
         name: "Experia XZ4",

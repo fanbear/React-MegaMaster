@@ -1,5 +1,320 @@
 const xiaomi = [
     {
+        id: "73",
+        title: "XIAOMI",
+        name: "Black Shark 3s",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-black-shark-3s",
+        img: require("../Image/Xiaomi/XIAOMI_BLACK SHARK 3S_000 .jpg")
+    },
+{
+        id: "74",
+        title: "XIAOMI",
+        name: "Mi 10t Lite",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-10t-lite",
+        img: require("../Image/Xiaomi/XIAOMI_MI 10T LITE_000.jpg")
+    },
+{
+        id: "75",
+        title: "XIAOMI",
+        name: "Mi 10t Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-10t-pro",
+        img: require("../Image/Xiaomi/XIAOMI_MI 10T PRO_000.png")
+    },
+{
+        id: "76",
+        title: "XIAOMI",
+        name: "Mi A3",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-a3",
+        img: require("../Image/Xiaomi/XIAOMI_MI A3_000.png")
+    },
+{
+        id: "77",
+        title: "XIAOMI",
+        name: "Mi 10t",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-10t",
+        img: require("../Image/Xiaomi/XIAOMI_MI 10T_000.png")
+    },
+{
+        id: "78",
+        title: "XIAOMI",
+        name: "Redmi 9",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-9",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI 9_000.png")
+    },
+{
+        id: "79",
+        title: "XIAOMI",
+        name: "Mi 9 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-9-pro",
+        img: require("../Image/Xiaomi/XIAOMI_MI 9 PRO_000.jpg")
+    },
+{
+        id: "80",
+        title: "XIAOMI",
+        name: "Poco F2 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-poco-f2-pro",
+        img: require("../Image/Xiaomi/XIAOMI_POCO F2 PRO_000.jpg")
+    },
+{
+        id: "81",
+        title: "XIAOMI",
+        name: "Mi 10 Ultra",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-10-ultra",
+        img: require("../Image/Xiaomi/XIAOMI_MI 10 ULTRA_000.jpg")
+    },
+{
+        id: "82",
+        title: "XIAOMI",
+        name: "Mi Mix Alpha",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-mix-alpha",
+        img: require("../Image/Xiaomi/XIAOMI_MI MIX ALPHA_000.png")
+    },
+{
+        id: "83",
+        title: "XIAOMI",
+        name: "Redmi Note 9t",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-note-9t",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI NOTE 9t_000.jpg")
+    },
+{
+        id: "84",
+        title: "XIAOMI",
+        name: "Redmi Note 8 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-note-8-pro",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI NOTE 8 PRO_000.jpg")
+    },
+{
+        id: "85",
+        title: "XIAOMI",
+        name: "Redmi Note 8",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-note-8",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI NOTE 8_000.jpg")
+    },
+{
+        id: "86",
+        title: "XIAOMI",
+        name: "Redmi Note 8A",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-8a",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI NOTE 8a_000.jpg")
+    },
+{
+        id: "87",
+        title: "XIAOMI",
+        name: "Mi 9 Lite/CC9",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-9-lite-cc9",
+        img: require("../Image/Xiaomi/XIAOMI_MI 9 LITE_000.jpg")
+    },
+{
+        id: "88",
+        title: "XIAOMI",
+        name: "Poco X3 NFC",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-poco-x3-nfc",
+        img: require("../Image/Xiaomi/XIAOMI_POCO X3 NFC_000.jpg")
+    },
+{
+        id: "89",
+        title: "XIAOMI",
+        name: "Redmi Note 9s",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-note-9s",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI NOTE 9S_000.jpg")
+    },
+{
+        id: "90",
+        title: "XIAOMI",
+        name: "Mi 11",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-11",
+        img: require("../Image/Xiaomi/XIAOMI_MI 11_000.jpg")
+    },
+{
+        id: "91",
+        title: "XIAOMI",
+        name: "Mi CC9 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-cc9-pro",
+        img: require("../Image/Xiaomi/XIAOMI_MI CC9 PRO_000.jpg")
+    },
+{
+        id: "92",
+        title: "XIAOMI",
+        name: "Mi 10",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-10",
+        img: require("../Image/Xiaomi/XIAOMI_MI 10_000.jpg")
+    },
+{
+        id: "93",
+        title: "XIAOMI",
+        name: "Mi 10 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-10-pro",
+        img: require("../Image/Xiaomi/XIAOMI_MI 10 PRO_000.jpg")
+    },
+{
+        id: "94",
+        title: "XIAOMI",
+        name: "Mi Note 10",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-note-10",
+        img: require("../Image/Xiaomi/XIAOMI_MI NOTE 10_000.jpg")
+    },
+{
+        id: "95",
+        title: "XIAOMI",
+        name: "Poco M3",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-poco-m3",
+        img: require("../Image/Xiaomi/XIAOMI_POCO M3_000.jpg")
+    },
+{
+        id: "96",
+        title: "XIAOMI",
+        name: "Mi 11 Lite",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-11-lite",
+        img: require("../Image/Xiaomi/XIAOMI_MI 11 Lite_000.jpg")
+    },
+{
+        id: "97",
+        title: "XIAOMI",
+        name: "Mi Note 10 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-note-10-pro",
+        img: require("../Image/Xiaomi/XIAOMI_MI NOTE 10 PRO_000.jpg")
+    },
+{
+        id: "98",
+        title: "XIAOMI",
+        name: "Mi Note 10 Lite",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-note-10-lite",
+        img: require("../Image/Xiaomi/XIAOMI_MI NOTE 10 LITE_000.jpg")
+    },
+{
+        id: "99",
+        title: "XIAOMI",
+        name: "Redmi Note 8t",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-note-8t",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI NOTE 8T_000.jpg")
+    },
+{
+        id: "100",
+        title: "XIAOMI",
+        name: "Mi 9t Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-9t-pro",
+        img: require("../Image/Xiaomi/XIAOMI_MI 9T PRO_000.png")
+    },
+{
+        id: "101",
+        title: "XIAOMI",
+        name: "Mi 9t",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-9t",
+        img: require("../Image/Xiaomi/XIAOMI_MI 9T_000.jpg")
+    },
+{
+        id: "102",
+        title: "XIAOMI",
+        name: "Mi A3 Lite",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-a3-lite",
+        img: require("../Image/Xiaomi/XIAOMI_MI A3 LITE_000.jpg")
+    },
+{
+        id: "103",
+        title: "XIAOMI",
+        name: "Redmi K40 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-k40-pro",
+        img: require("../Image/Xiaomi/xiaomi_redmi k 40 Pro_000.jpg")
+    },
+{
+        id: "104",
+        title: "XIAOMI",
+        name: "Redmi K40",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-k40-mi-cc10",
+        img: require("../Image/Xiaomi/xiaomi_redmi k 40_000.jpg")
+    },
+{
+        id: "105",
+        title: "XIAOMI",
+        name: "Redmi K30",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-k30",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI K30_000.jpg")
+    },
+{
+        id: "106",
+        title: "XIAOMI",
+        name: "Redmi K20",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-k20",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI K20_000.jpg")
+    },
+{
+        id: "107",
+        title: "XIAOMI",
+        name: "Redmi K20 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-k20-pro",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI K20 PRO_000.jpg")
+    },
+{
+        id: "108",
+        title: "XIAOMI",
+        name: "Redmi 7a",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-7a",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI 7A_000.jpg")
+    },
+{
+        id: "109",
+        title: "XIAOMI",
+        name: "Redmi Note 9 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-note-9-pro",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI NOTE 9 PRO_000.jpg")
+    },
+{
+        id: "110",
+        title: "XIAOMI",
+        name: "Redmi 9a",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-9a",
+        img: require("../Image/Xiaomi/xiaomi_redmi 9a_000.jpg")
+    },
+{
+        id: "111",
+        title: "XIAOMI",
+        name: "Redmi Note 9",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-note-9",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI NOTE 9_000.jpg")
+    },
+{
+        id: "112",
+        title: "XIAOMI",
+        name: "Redmi 9c",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-9c",
+        img: require("../Image/Xiaomi/xiaomi_redmi 9c_000.jpg")
+    },
+{
+        id: "113",
+        title: "XIAOMI",
+        name: "Redmi K30 Ultra",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-k30-ultra",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI K30 Ultra_000.jpg")
+    },
+{
+        id: "114",
+        title: "XIAOMI",
+        name: "Redmi K30s Ultra",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-redmi-k30s-ultra",
+        img: require("../Image/Xiaomi/XIAOMI_REDMI K30s Ultra_000.jpg")
+    },
+{
+        id: "115",
+        title: "XIAOMI",
+        name: "Black Shark 3",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-black-shark-3",
+        img: require("../Image/Xiaomi/xiaomi_BLACK SHARK 3_000.jpg")
+    },
+{
+        id: "116",
+        title: "XIAOMI",
+        name: "Mi 10s Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-10s-pro",
+        img: require("../Image/Xiaomi/Xiaomi_Mi 10s Pro_000.jpg")
+    },
+{
+        id: "117",
+        title: "XIAOMI",
+        name: "Mi CC10 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-xiaomi/remont-xiaomi-mi-cc10-pro",
+        img: require("../Image/Xiaomi/XIAOMI_MI CC10 PRO_000.jpg")
+    },
+    {
         id: "1",
         title: "XIAOMI",
         name: "Mi Note 3",

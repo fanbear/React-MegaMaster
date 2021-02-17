@@ -1,5 +1,26 @@
 const nokia = [
     {
+        id: "55",
+        title: "NOKIA",
+        name: "5.3",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-nokia/remont-nokia-5-3",
+        img: require("../Image/Nokia/NOKIA_5.3_000.jpg")
+    },
+{
+        id: "56",
+        title: "NOKIA",
+        name: "2.2",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-nokia/remont-nokia-2-2-ta-1188",
+        img: require("../Image/Nokia/NOKIA_2.2_000.jpg")
+    },
+{
+        id: "57",
+        title: "NOKIA",
+        name: "7.2",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-nokia/remont-nokia-7-2-ta-1196",
+        img: require("../Image/Nokia/NOKIA_7.2_000.jpg")
+    },
+    {
         id: "1",
         title: "NOKIA",
         name: "Lumia 920",

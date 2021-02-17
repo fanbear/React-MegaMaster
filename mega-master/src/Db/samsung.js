@@ -1,5 +1,313 @@
 const samsung = [
     {
+        id: "104",
+        title: "Samsung",
+        name: "Galaxy S21 Ultra",
+        img: require("../Image/Samsung/s21 ultra.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-s21-ultra"
+    },
+{
+        id: "105",
+        title: "Samsung",
+        name: "Galaxy S21 Plus",
+        img: require("../Image/Samsung/s21 plus.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-s21-plus"
+    },
+{
+        id: "106",
+        title: "Samsung",
+        name: "Galaxy S21",
+        img: require("../Image/Samsung/s21.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-s21"
+    },
+{
+        id: "107",
+        title: "Samsung",
+        name: "Galaxy A42",
+        img: require("../Image/Samsung/samsung_ga;laxy a42_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a42"
+    },
+{
+        id: "108",
+        title: "Samsung",
+        name: "Galaxy A10e",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A10E_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a10e"
+    },
+{
+        id: "109",
+        title: "Samsung",
+        name: "Galaxy M01",
+        img: require("../Image/Samsung/galaxy m01.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-m01-sm-m015"
+    },
+{
+        id: "110",
+        title: "Samsung",
+        name: "Note 20 Ultra",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY NOTE 20 ULTRA_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-note-20-ultra-sm-n985f"
+    },
+{
+        id: "111",
+        title: "Samsung",
+        name: "Galaxy A01",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A01_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a01-sm-a015"
+    },
+{
+        id: "112",
+        title: "Samsung",
+        name: "Galaxy M51",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY M51_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-m51-m515"
+    },
+{
+        id: "113",
+        title: "Samsung",
+        name: "Galaxy M30S",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY M30S_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-m30s-sm-m307"
+    },
+{
+        id: "114",
+        title: "Samsung",
+        name: "Galaxy M30",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY M30_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-m30"
+    },
+{
+        id: "115",
+        title: "Samsung",
+        name: "Galaxy S20 Plus",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY S20 PLUS_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-s20-plus-sm-g985"
+    },
+{
+        id: "116",
+        title: "Samsung",
+        name: "Galaxy S20",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY S20_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-s20-sm-g980"
+    },
+{
+        id: "117",
+        title: "Samsung",
+        name: "Galaxy A30S",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A30S_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a30s-sm-a307"
+    },
+{
+        id: "118",
+        title: "Samsung",
+        name: "Galaxy A70S",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A70S_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a70s-sm-a707"
+    },
+{
+        id: "119",
+        title: "Samsung",
+        name: "Galaxy A60S",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A60S_000.png"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a60s-sm-a606"
+    },
+{
+        id: "120",
+        title: "Samsung",
+        name: "Galaxy A50S",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A50S_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a50s-sm-a507"
+    },
+{
+        id: "121",
+        title: "Samsung",
+        name: "Galaxy A40S",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A40S_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/galaxy-a40s-sm-a407.html"
+    },
+{
+        id: "122",
+        title: "Samsung",
+        name: "Galaxy A20S",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A20S_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a20s-sm-a207"
+    },
+{
+        id: "123",
+        title: "Samsung",
+        name: "Galaxy A10S",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A10S_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a10s-sm-a107"
+    },
+{
+        id: "124",
+        title: "Samsung",
+        name: "Galaxy M31 Prime",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY M31 PRIME_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-m31-prime"
+    },
+{
+        id: "125",
+        title: "Samsung",
+        name: "Galaxy M31s",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY M31S_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-m31s"
+    },
+{
+        id: "126",
+        title: "Samsung",
+        name: "Galaxy S20 Ultra",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY S20 ULTRA_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-s20-ultra-sm-g988"
+    },
+{
+        id: "127",
+        title: "Samsung",
+        name: "Galaxy A41s",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A41S_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a41s-sm-a417f"
+    },
+{
+        id: "128",
+        title: "Samsung",
+        name: "Galaxy A41",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A41_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a41-sm-a415f"
+    },
+{
+        id: "129",
+        title: "Samsung",
+        name: "Galaxy A51s",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A51S_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a51s-a517"
+    },
+{
+        id: "130",
+        title: "Samsung",
+        name: "Galaxy A21s",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A21S_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a21s-a217"
+    },
+{
+        id: "131",
+        title: "Samsung",
+        name: "Galaxy S20",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY S20_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-s20-fe-sm-g780"
+    },
+{
+        id: "132",
+        title: "Samsung",
+        name: "Galaxy M11",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY M11_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-m11-sm-m115f"
+    },
+{
+        id: "133",
+        title: "Samsung",
+        name: "Galaxy A11",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A11_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a11-a115"
+    },
+{
+        id: "134",
+        title: "Samsung",
+        name: "Galaxy A21",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A21_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a21-a215"
+    },
+{
+        id: "135",
+        title: "Samsung",
+        name: "Galaxy M41",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY M41_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-m41-m415"
+    },
+{
+        id: "136",
+        title: "Samsung",
+        name: "Galaxy A31",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A31_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a31-a315f"
+    },
+{
+        id: "137",
+        title: "Samsung",
+        name: "Galaxy M31",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY M31_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-m31-m315"
+    },
+{
+        id: "138",
+        title: "Samsung",
+        name: "Galaxy A71",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A71_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a71-a715f"
+    },
+{
+        id: "139",
+        title: "Samsung",
+        name: "Galaxy M21",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY M21_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-m21-m215"
+    },
+{
+        id: "140",
+        title: "Samsung",
+        name: "Galaxy A51",
+        img: require("../Image/Samsung/samsung_galaxy a51_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a51-sm-a515f"
+    },
+{
+        id: "141",
+        title: "Samsung",
+        name: "Galaxy S10 Lite",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY S10 LITE_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-s10-lite-sm-g770"
+    },
+{
+        id: "142",
+        title: "Samsung",
+        name: "Galaxy Note 10 Lite",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY NOTE 10 LITE_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-note-10-lite-sm-n770"
+    },
+{
+        id: "143",
+        title: "Samsung",
+        name: "Galaxy A90 2019",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY A90 2019_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a90-2019-sm-a905"
+    },
+{
+        id: "144",
+        title: "Samsung",
+        name: "Galaxy J2 Core",
+        img: require("../Image/Samsung/samsung_galaxy j2 core_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-j2-core-j260"
+    },
+{
+        id: "145",
+        title: "Samsung",
+        name: "Galaxy Note 20",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY NOTE 20_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-note-20-sm-n986f"
+    },
+{
+        id: "146",
+        title: "Samsung",
+        name: "Galaxy Note 10 Plus",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY NOTE 10 PLUS_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-note-10-plus-sm-n975"
+    },
+{
+        id: "147",
+        title: "Samsung",
+        name: "Galaxy Note 10",
+        img: require("../Image/Samsung/SAMSUNG_GALAXY NOTE 10_000.jpg"),
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-note-10-sm-n970"
+    },
+    {
         id: "1",
         title: "Samsung",
         name: "s10 plus",
@@ -207,7 +515,7 @@ const samsung = [
         id: "30",
         title: "Samsung",
         name: "Galaxy A7 2018 A750",
-        img: require("../Image/Samsung/GalaxyA72018A750.png"),
+        img: require("../Image/Samsung/a7 2018.jpg"),
         src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a7-2018-a750.html"
     },
     {
@@ -221,14 +529,14 @@ const samsung = [
         id: "32",
         title: "Samsung",
         name: "Galaxy A6 Plus A620FZ",
-        img: require("../Image/Samsung/GalaxyA6PlusA620FZ.jpg"),
+        img: require("../Image/Samsung/a6.jpg"),
         src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a6-plus-a620fz.html"
     },
     {
         id: "33",
         title: "Samsung",
         name: "Galaxy A6 A600FZ",
-        img: require("../Image/Samsung/GalaxyA6A600FZ.jpg"),
+        img: require("../Image/Samsung/a6.jpg"),
         src: "http://www.testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-samsung/remont-samsung-galaxy-a6-a600fz.html"
     },
     {

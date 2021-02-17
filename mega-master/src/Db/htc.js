@@ -1,5 +1,33 @@
 const htc = [
     {
+        id: "41",
+        title: "HTC",
+        name: "U11 Eyes",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-htc/remont-htc-u11-eyes-2q4r1",
+        img: require("../Image/Htc/HTC_U11 EYES_000.jpg")
+    },
+    {
+        id: "42",
+        title: "HTC",
+        name: "Exodus 1",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-htc/remont-htc-exodus-1",
+        img: require("../Image/Htc/HTC_EXODUS 1_000.jpg")
+    },
+    {
+        id: "43",
+        title: "HTC",
+        name: "U12 Plus",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-htc/remont-htc-u12-plus-2q551",
+        img: require("../Image/Htc/HTC_U12 PLUS_000.jpg")
+    },
+    {
+        id: "44",
+        title: "HTC",
+        name: "U12 Life",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-htc/remont-htc-u12-life-2q6e1",
+        img: require("../Image/Htc/HTC_U12 LIFE_000.jpg")
+    },  
+    {
         id: "1",
         title: "HTC",
         name: "U11",

@@ -1,5 +1,47 @@
 const meizu = [
     {
+        id: "51",
+        title: "MEIZU",
+        name: "M10",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-meizu/remont-meizu-m10",
+        img: require("../Image/Meizu/MEIZU_M10_000.jpg")
+    },
+{
+        id: "52",
+        title: "MEIZU",
+        name: "16s",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-meizu/remont-meizu-16s",
+        img: require("../Image/Meizu/MEIZU_16S_000.jpg")
+    },
+{
+        id: "53",
+        title: "MEIZU",
+        name: "17 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-meizu/remont-meizu-17-pro",
+        img: require("../Image/Meizu/MEIZU_17 PRO_000.jpg")
+    },
+{
+        id: "54",
+        title: "MEIZU",
+        name: "16x",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-meizu/remont-meizu-16x",
+        img: require("../Image/Meizu/MEIZU_16X_000.jpg")
+    },
+{
+        id: "55",
+        title: "MEIZU",
+        name: "16xs",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-meizu/remont-meizu-16xs",
+        img: require("../Image/Meizu/MEIZU_16XS_000.jpg")
+    },
+{
+        id: "56",
+        title: "MEIZU",
+        name: "17",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-meizu/remont-meizu-17",
+        img: require("../Image/Meizu/MEIZU_17_000.jpg")
+    },
+    {
         id: "1",
         title: "MEIZU",
         name: "Pro 7 Plus",

@@ -1,5 +1,54 @@
 const lg = [
     {
+        id: "60",
+        title: "LG",
+        name: "V30 Plus",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lg/remont-lg-v30-plus-h930",
+        img: require("../Image/Lg/LG_V30 PLUS_000.jpg")
+    },
+{
+        id: "61",
+        title: "LG",
+        name: "V30S",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lg/remont-lg-v30s-v300kr",
+        img: require("../Image/Lg/LG_V30S_000.jpg")
+    },
+{
+        id: "62",
+        title: "LG",
+        name: "V30S Plus",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lg/remont-lg-v30s-plus-lm-us998r",
+        img: require("../Image/Lg/LG_V30S PLUS_000.jpg")
+    },
+{
+        id: "63",
+        title: "LG",
+        name: "K9",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lg/remont-lg-k9-lm-x210",
+        img: require("../Image/Lg/LG_K9_000.jpg")
+    },
+{
+        id: "64",
+        title: "LG",
+        name: "V35",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lg/remont-lg-v35-thinq-lm-v350",
+        img: require("../Image/Lg/LG_V35_000.jpg")
+    },
+{
+        id: "65",
+        title: "LG",
+        name: "Q Stylus",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lg/remont-lg-q-stylus-lm-q710",
+        img: require("../Image/Lg/LG_Q STYLUS_000.jpg")
+    },
+{
+        id: "66",
+        title: "LG",
+        name: "G7 Thinq",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lg/remont-lg-g7-thinq-g710eaw",
+        img: require("../Image/Lg/LG_G7 THINQ_000.jpg")
+    },
+    {
         id: "1",
         title: "LG",
         name: "Q9",

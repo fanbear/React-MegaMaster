@@ -1,5 +1,68 @@
 const lenovo = [
     {
+        id: "82",
+        title: "LENOVO",
+        name: "P2",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lenovo/remont-lenovo-p2-p2a42",
+        img: require("../Image/Lenovo/LENOVO_P2_000.jpg")
+    },
+{
+        id: "83",
+        title: "LENOVO",
+        name: "K5 Play",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lenovo/remont-lenovo-k5-play-l38011",
+        img: require("../Image/Lenovo/LENOVO_K5 PLAY_000.jpg")
+    },
+{
+        id: "84",
+        title: "LENOVO",
+        name: "Z5",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lenovo/remont-lenovo-z5-l78011",
+        img: require("../Image/Lenovo/LENOVO_Z5_000.jpg")
+    },
+{
+        id: "85",
+        title: "LENOVO",
+        name: "S5 K520",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lenovo/remont-lenovo-s5-k520",
+        img: require("../Image/Lenovo/LENOVO_S5 K520_000.jpg")
+    },
+{
+        id: "86",
+        title: "LENOVO",
+        name: "K9",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lenovo/remont-lenovo-k9-l38043",
+        img: require("../Image/Lenovo/LENOVO_K9_000.jpg")
+    },
+{
+        id: "87",
+        title: "LENOVO",
+        name: "S5 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lenovo/remont-lenovo-s5-pro-l58041",
+        img: require("../Image/Lenovo/LENOVO_S5 PRO_000.jpg")
+    },
+{
+        id: "88",
+        title: "LENOVO",
+        name: "Z5 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lenovo/remont-lenovo-z5-pro-l78031",
+        img: require("../Image/Lenovo/LENOVO_Z5 PRO_000.jpg")
+    },
+{
+        id: "89",
+        title: "LENOVO",
+        name: "K5 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lenovo/remont-lenovo-k5-pro-l38041",
+        img: require("../Image/Lenovo/LENOVO_K5 PRO_000.jpg")
+    },
+{
+        id: "90",
+        title: "LENOVO",
+        name: "Z6 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-lenovo/remont-lenovo-z6-pro-l78051",
+        img: require("../Image/Lenovo/LENOVO_Z6 PRO_000.jpg")
+    },
+    {
         id: "1",
         title: "LENOVO",
         name: "K5 Plus",

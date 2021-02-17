@@ -1,5 +1,201 @@
 const huawei = [
     {
+        id: "109",
+        title: "HUAWEI",
+        name: "Enjoy 20 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-enjoy-20-pro",
+        img: require("../Image/Huawei/HUAWEI_ENJOY 20 PRO_000.jpg")
+    },
+    {
+        id: "110",
+        title: "HUAWEI",
+        name: "Enjoy 20 Plus",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-enjoy-20-plus",
+        img: require("../Image/Huawei/ENJOY 20 PLUS.jpg")
+    },
+    {
+        id: "111",
+        title: "HUAWEI",
+        name: "Enjoy 20",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-enjoy-20",
+        img: require("../Image/Huawei/HUAWEI_ENJOY 20_000.jpg")
+    },
+    {
+        id: "112",
+        title: "HUAWEI",
+        name: "Nova 8 Se",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-nova-8-se",
+        img: require("../Image/Huawei/HUAWEI_NOVA 8 SE_000.png")
+    },
+    {
+        id: "113",
+        title: "HUAWEI",
+        name: "Mate 40 Pro Plus",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-mate-40-pro-plus",
+        img: require("../Image/Huawei/HUAWEI MATE PRO PLUS.jpg")
+    },
+    {
+        id: "114",
+        title: "HUAWEI",
+        name: "Mate 40 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/mate-40-pro.html",
+        img: require("../Image/Huawei/HUAWEI MATE 40.jpg")
+    },
+    {
+        id: "115",
+        title: "HUAWEI",
+        name: "Mate 40",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-mate-40",
+        img: require("../Image/Huawei/HUAWEI MATE 40.jpg")
+    },
+    {
+        id: "116",
+        title: "HUAWEI",
+        name: "P Smart Z",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-p-smart-z",
+        img: require("../Image/Huawei/P SMART Z.jpg")
+    },
+    {
+        id: "117",
+        title: "HUAWEI",
+        name: "Y7A",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-y7a",
+        img: require("../Image/Huawei/HUAWEI_Y7A_000.jpg")
+    },
+    {
+        id: "118",
+        title: "HUAWEI",
+        name: "Y9A",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-y9a",
+        img: require("../Image/Huawei/Y9A.jpg")
+    },
+    {
+        id: "119",
+        title: "HUAWEI",
+        name: "Nova 5t",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-nova-5t",
+        img: require("../Image/Huawei/HUAWEI_NOVA 5T_000.jpg")
+    },
+    {
+        id: "120",
+        title: "HUAWEI",
+        name: "P Smart S",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-p-smart-s",
+        img: require("../Image/Huawei/P SMART S.jpg")
+    },
+    {
+        id: "121",
+        title: "HUAWEI",
+        name: "Y9 Prime",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-y9-prime",
+        img: require("../Image/Huawei/HUAWEI_Y9 PRIME_000.jpg")
+    },
+    {
+        id: "122",
+        title: "HUAWEI",
+        name: "P40 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-p40-pro",
+        img: require("../Image/Huawei/HUAWEI_P40 PRO_000.jpg")
+    },
+    {
+        id: "123",
+        title: "HUAWEI",
+        name: "P40",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-p40",
+        img: require("../Image/Huawei/HUAWEI_P40_000.jpg")
+    },
+    {
+        id: "124",
+        title: "HUAWEI",
+        name: "Mate 20 Lite",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-mate-20-lite",
+        img: require("../Image/Huawei/HUAWEI_MATE 20 LITE_000.jpg")
+    },
+    {
+        id: "125",
+        title: "HUAWEI",
+        name: "Y5p",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-y5p",
+        img: require("../Image/Huawei/HUAWEI_Y5P_000.jpg")
+    },
+    {
+        id: "126",
+        title: "HUAWEI",
+        name: "P40 Lite E",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-p40-lite-e",
+        img: require("../Image/Huawei/HUAWEI_P40 LITE E_000.jpg")
+    },
+    {
+        id: "127",
+        title: "HUAWEI",
+        name: "Y6p",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-y6p",
+        img: require("../Image/Huawei/HUAWEI_Y6P_000.jpg")
+    },
+    {
+        id: "128",
+        title: "HUAWEI",
+        name: "Y8p",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-y8p",
+        img: require("../Image/Huawei/HUAWEI_Y8P_000.jpg")
+    },
+    {
+        id: "129",
+        title: "HUAWEI",
+        name: "P50 Pro Plus",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-p50-pro-plus",
+        img: require("../Image/Huawei/HUAWEI_P50 PRO PLUS_000.jpg")
+    },
+    {
+        id: "130",
+        title: "HUAWEI",
+        name: "P50 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-p50-pro",
+        img: require("../Image/Huawei/HUAWEI_P50 PRO_000.jpg")
+    },
+    {
+        id: "131",
+        title: "HUAWEI",
+        name: "P50",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-p50",
+        img: require("../Image/Huawei/HUAWEI_P50_000.jpg")
+    },
+{
+        id: "132",
+        title: "HUAWEI",
+        name: "P40 Pro Plus",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-p40-pro-plus",
+        img: require("../Image/Huawei/HUAWEI_P40 PRO PLUS_000.jpg")
+    },
+    {
+        id: "133",
+        title: "HUAWEI",
+        name: "P Smart 2021",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-p-smart-2021",
+        img: require("../Image/Huawei/HUAWEI_P SMART 2021_000.jpg")
+    },
+    {
+        id: "134",
+        title: "HUAWEI",
+        name: "P Smart Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-p-smart-pro",
+        img: require("../Image/Huawei/HUAWEI_P SMART PRO_000.jpg")
+    },
+    {
+        id: "135",
+        title: "HUAWEI",
+        name: "Y5 2019",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-y5-2019",
+        img: require("../Image/Huawei/HUAWEI_Y5 2019_000.jpg")
+    },
+    {
+        id: "136",
+        title: "HUAWEI",
+        name: "Y6 2019",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-huawei/remont-huawei-y6-2019",
+        img: require("../Image/Huawei/HUAWEI_Y6 2019_000.jpg")
+    },
+    {
         id: "1",
         title: "HUAWEI",
         name: "Y6 Pro",

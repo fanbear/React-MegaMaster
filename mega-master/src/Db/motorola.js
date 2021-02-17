@@ -1,5 +1,47 @@
 const motorola = [
     {
+        id: "31",
+        title: "Motorola",
+        name: "G9 Plus",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-motorola/remont-motorola-g9-plus",
+        img: require("../Image/Motorola/motorola g9 plus.jpg")
+    },
+{
+        id: "32",
+        title: "Motorola",
+        name: "One Vision",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-motorola/remont-motorola-one-vision",
+        img: require("../Image/Motorola/MOTOROLA_ONE VISION_000.jpg")
+    },
+{
+        id: "33",
+        title: "Motorola",
+        name: "One",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-motorola/remont-motorola-one",
+        img: require("../Image/Motorola/MOTOROLA_ONE_000.jpg")
+    },
+{
+        id: "34",
+        title: "Motorola",
+        name: "One Action",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-motorola/remont-motorola-one-action",
+        img: require("../Image/Motorola/MOTOROLA_ONE ACTION_000.jpg")
+    },
+{
+        id: "35",
+        title: "Motorola",
+        name: "E6 Plus",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-motorola/remont-motorola-e6-plus-xt2025",
+        img: require("../Image/Motorola/MOTOROLA_E6 PLUS_000.jpg")
+    },
+{
+        id: "36",
+        title: "Motorola",
+        name: "Moto G8 Power Lite",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-motorola/remont-motorola-moto-g8-power-lite-xt2055",
+        img: require("../Image/Motorola/MOTOROLA_MOTO G8 POWER LITE_000.jpg")
+    },
+    {
         id: "1",
         title: "Motorola",
         name: "Moto M",

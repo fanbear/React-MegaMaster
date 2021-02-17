@@ -1,5 +1,61 @@
 const apple = [
     {
+        id: "21",
+        title: "APPLE",
+        name: "SE 2020",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-apple-iphone/remont-iphone-se-2020",
+        img: require("../Image/Apple/iphone_se 2020_000.jpg")
+    },
+    {
+        id: "22",
+        title: "APPLE",
+        name: "11",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-apple-iphone/remont-iphone-11",
+        img: require("../Image/Apple/iphone_11_000.jpg")
+    },
+    {
+        id: "23",
+        title: "APPLE",
+        name: "11 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-apple-iphone/remont-iphone-11-pro",
+        img: require("../Image/Apple/iphone_11 pro_000.jpg")
+    },
+    {
+        id: "24",
+        title: "APPLE",
+        name: "11 Pro Max",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-apple-iphone/remont-iphone-11-pro-max",
+        img: require("../Image/Apple/iphone_11 pro max_000.jpg")
+    },
+    {
+        id: "24",
+        title: "APPLE",
+        name: "12 Mini",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-apple-iphone/remont-iphone-12-mini",
+        img: require("../Image/Apple/iphone_12 mini_000.jpg")
+    },
+    {
+        id: "25",
+        title: "APPLE",
+        name: "12",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-apple-iphone/remont-iphone-12",
+        img: require("../Image/Apple/iphone_12_000.jpg")
+    },
+    {
+        id: "26",
+        title: "APPLE",
+        name: "12 Pro",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-apple-iphone/remont-iphone-12-pro",
+        img: require("../Image/Apple/iphone_12 pro_000.jpg")
+    },
+    {
+        id: "27",
+        title: "APPLE",
+        name: "12 Pro Max",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-apple-iphone/remont-iphone-12-pro-max",
+        img: require("../Image/Apple/iphone_12 pro max_000.jpg")
+    },
+    {
         id: "1",
         title: "APPLE",
         name: "XR",

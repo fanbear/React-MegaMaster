@@ -1,5 +1,40 @@
 const honor = [
     {
+        id: "29",
+        title: "Honor",
+        name: "20 Lite",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-honor/remont-honor-20-lite-hry-lx1t",
+        img: require("../Image/Honor/HONOR_20 LITE_000.jpg")
+    },
+    {
+        id: "30",
+        title: "Honor",
+        name: "20",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-honor/remont-honor-20-yal-l21",
+        img: require("../Image/Honor/HONOR_20_000.jpg")
+    },
+    {
+        id: "31",
+        title: "Honor",
+        name: "V30 Pro View",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-honor/remont-honor-v30-pro-view-30-pro",
+        img: require("../Image/Honor/honor_v30_pro_view.jpg")
+    },
+    {
+        id: "32",
+        title: "Honor",
+        name: "Play 9a",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-honor/remont-honor-play-9a-moa-al20",
+        img: require("../Image/Honor/HONOR_PLAY 9A_000.jpg")
+    },
+    {
+        id: "33",
+        title: "Honor",
+        name: "Play 4t",
+        src: "https://testproject.pro/remont-mobilnyix-telefonov/remont-telefonov-honor/remont-honor-play-4t-aka-al10",
+        img: require("../Image/Honor/HONOR_PLAY 4T_000.jpg")
+    },
+    {
         id: "1",
         title: "Honor",
         name: "4C",
